@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DtsVentasPorFamilia" targetNamespace="http://tempuri.org/DtsVentasPorFamilia.xsd" xmlns:mstns="http://tempuri.org/DtsVentasPorFamilia.xsd" xmlns="http://tempuri.org/DtsVentasPorFamilia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DtsVentasPorFamilia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DtsVentasPorFamilia" msprop:Generator_UserDSName="DtsVentasPorFamilia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtVentas" msprop:Generator_TableClassName="dtVentasDataTable" msprop:Generator_TableVarName="tabledtVentas" msprop:Generator_RowChangedName="dtVentasRowChanged" msprop:Generator_TablePropName="dtVentas" msprop:Generator_RowDeletingName="dtVentasRowDeleting" msprop:Generator_RowChangingName="dtVentasRowChanging" msprop:Generator_RowEvHandlerName="dtVentasRowChangeEventHandler" msprop:Generator_RowDeletedName="dtVentasRowDeleted" msprop:Generator_RowClassName="dtVentasRow" msprop:Generator_UserTableName="dtVentas" msprop:Generator_RowEvArgName="dtVentasRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FAMILIA" msprop:Generator_ColumnVarNameInTable="columnFAMILIA" msprop:Generator_ColumnPropNameInRow="FAMILIA" msprop:Generator_ColumnPropNameInTable="FAMILIAColumn" msprop:Generator_UserColumnName="FAMILIA" type="xs:string" minOccurs="0" />
+              <xs:element name="PROVEEDOR" msprop:Generator_ColumnVarNameInTable="columnPROVEEDOR" msprop:Generator_ColumnPropNameInRow="PROVEEDOR" msprop:Generator_ColumnPropNameInTable="PROVEEDORColumn" msprop:Generator_UserColumnName="PROVEEDOR" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" msprop:Generator_UserColumnName="CANTIDAD" type="xs:double" minOccurs="0" />
+              <xs:element name="COSTO_UNITARIO" msprop:Generator_ColumnVarNameInTable="columnCOSTO_UNITARIO" msprop:Generator_ColumnPropNameInRow="COSTO_UNITARIO" msprop:Generator_ColumnPropNameInTable="COSTO_UNITARIOColumn" msprop:Generator_UserColumnName="COSTO_UNITARIO" type="xs:string" minOccurs="0" />
+              <xs:element name="PRECIO_VENTA" msprop:Generator_ColumnVarNameInTable="columnPRECIO_VENTA" msprop:Generator_ColumnPropNameInRow="PRECIO_VENTA" msprop:Generator_ColumnPropNameInTable="PRECIO_VENTAColumn" msprop:Generator_UserColumnName="PRECIO_VENTA" type="xs:string" minOccurs="0" />
+              <xs:element name="PARTICIPACION" msprop:Generator_ColumnVarNameInTable="columnPARTICIPACION" msprop:Generator_ColumnPropNameInRow="PARTICIPACION" msprop:Generator_ColumnPropNameInTable="PARTICIPACIONColumn" msprop:Generator_UserColumnName="PARTICIPACION" type="xs:double" minOccurs="0" />
+              <xs:element name="MARCA" msprop:Generator_ColumnVarNameInTable="columnMARCA" msprop:Generator_ColumnPropNameInRow="MARCA" msprop:Generator_ColumnPropNameInTable="MARCAColumn" msprop:Generator_UserColumnName="MARCA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

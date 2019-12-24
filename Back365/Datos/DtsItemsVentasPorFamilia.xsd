@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DtsItemsVentasPorFamilia" targetNamespace="http://tempuri.org/DtsItemsVentasPorFamilia.xsd" xmlns:mstns="http://tempuri.org/DtsItemsVentasPorFamilia.xsd" xmlns="http://tempuri.org/DtsItemsVentasPorFamilia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DtsItemsVentasPorFamilia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DtsItemsVentasPorFamilia" msprop:Generator_UserDSName="DtsItemsVentasPorFamilia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt" msprop:Generator_TableClassName="dtDataTable" msprop:Generator_TableVarName="tabledt" msprop:Generator_TablePropName="dt" msprop:Generator_RowDeletingName="dtRowDeleting" msprop:Generator_RowChangingName="dtRowChanging" msprop:Generator_RowEvHandlerName="dtRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRowDeleted" msprop:Generator_UserTableName="dt" msprop:Generator_RowChangedName="dtRowChanged" msprop:Generator_RowEvArgName="dtRowChangeEvent" msprop:Generator_RowClassName="dtRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CODIGO_BARRAS" msprop:Generator_ColumnVarNameInTable="columnCODIGO_BARRAS" msprop:Generator_ColumnPropNameInRow="CODIGO_BARRAS" msprop:Generator_ColumnPropNameInTable="CODIGO_BARRASColumn" msprop:Generator_UserColumnName="CODIGO_BARRAS" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn" msprop:Generator_UserColumnName="PRODUCTO" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD_VENDIDA" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_VENDIDA" msprop:Generator_ColumnPropNameInRow="CANTIDAD_VENDIDA" msprop:Generator_ColumnPropNameInTable="CANTIDAD_VENDIDAColumn" msprop:Generator_UserColumnName="CANTIDAD_VENDIDA" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_COSTO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_COSTO" msprop:Generator_ColumnPropNameInRow="TOTAL_COSTO" msprop:Generator_ColumnPropNameInTable="TOTAL_COSTOColumn" msprop:Generator_UserColumnName="TOTAL_COSTO" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_VENTA" msprop:Generator_ColumnVarNameInTable="columnTOTAL_VENTA" msprop:Generator_ColumnPropNameInRow="TOTAL_VENTA" msprop:Generator_ColumnPropNameInTable="TOTAL_VENTAColumn" msprop:Generator_UserColumnName="TOTAL_VENTA" type="xs:string" minOccurs="0" />
+              <xs:element name="RENTABILIDAD" msprop:Generator_ColumnVarNameInTable="columnRENTABILIDAD" msprop:Generator_ColumnPropNameInRow="RENTABILIDAD" msprop:Generator_ColumnPropNameInTable="RENTABILIDADColumn" msprop:Generator_UserColumnName="RENTABILIDAD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

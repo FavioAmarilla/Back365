@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dts_buscar_en_caja" targetNamespace="http://tempuri.org/dts_buscar_en_caja.xsd" xmlns:mstns="http://tempuri.org/dts_buscar_en_caja.xsd" xmlns="http://tempuri.org/dts_buscar_en_caja.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dts_buscar_en_caja" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dts_buscar_en_caja" msprop:Generator_UserDSName="dts_buscar_en_caja">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_buscar_en_caja" msprop:Generator_TableClassName="dt_buscar_en_cajaDataTable" msprop:Generator_TableVarName="tabledt_buscar_en_caja" msprop:Generator_TablePropName="dt_buscar_en_caja" msprop:Generator_RowDeletingName="dt_buscar_en_cajaRowDeleting" msprop:Generator_RowChangingName="dt_buscar_en_cajaRowChanging" msprop:Generator_RowEvHandlerName="dt_buscar_en_cajaRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_buscar_en_cajaRowDeleted" msprop:Generator_UserTableName="dt_buscar_en_caja" msprop:Generator_RowChangedName="dt_buscar_en_cajaRowChanged" msprop:Generator_RowEvArgName="dt_buscar_en_cajaRowChangeEvent" msprop:Generator_RowClassName="dt_buscar_en_cajaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CODIGO_BARRAS" msprop:Generator_ColumnVarNameInTable="columnCODIGO_BARRAS" msprop:Generator_ColumnPropNameInRow="CODIGO_BARRAS" msprop:Generator_ColumnPropNameInTable="CODIGO_BARRASColumn" msprop:Generator_UserColumnName="CODIGO_BARRAS" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" msprop:Generator_UserColumnName="DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="PRECIO_VENTA" msprop:Generator_ColumnVarNameInTable="columnPRECIO_VENTA" msprop:Generator_ColumnPropNameInRow="PRECIO_VENTA" msprop:Generator_ColumnPropNameInTable="PRECIO_VENTAColumn" msprop:Generator_UserColumnName="PRECIO_VENTA" type="xs:string" minOccurs="0" />
+              <xs:element name="BUSCAR_x0020_EN_x0020_CAJA" msprop:Generator_ColumnVarNameInTable="columnBUSCAR_EN_CAJA" msprop:Generator_ColumnPropNameInRow="BUSCAR_EN_CAJA" msprop:Generator_ColumnPropNameInTable="BUSCAR_EN_CAJAColumn" msprop:Generator_UserColumnName="BUSCAR EN CAJA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
